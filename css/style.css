@@ -1,0 +1,83 @@
+.carousel-item{
+    height: 650px;
+}
+.carousel-item img{
+    height: 650px;
+    object-fit: cover;
+}
+
+.banner-section{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.banner-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+}
+
+.navbar{
+    background-color: #F39C12;
+}
+.nav-item a{
+    font-weight: 500;
+}
+
+/* main section  */
+.eat-heading{
+    color: #F39C12;
+}
+
+.card i{
+    font-size: 40px;
+    text-align: center;
+    color: #F39C12;
+}
+
+.card-section .card{
+    background-color: #F0F0F0;
+    margin-bottom: 30px;
+    background: #F0F0F0;
+    border-bottom: 10px solid #E2E2E2;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #F39C12;
+}
+
+
+/* gallary  */
+.card-footer{
+    background-color: #300F00;
+}
+.gallary-container .col:hover{
+
+    opacity: 0.7;
+}
+/* clients section  */
+.client-section{
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+.set-width{
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.contact-btn .btn{
+    background-color: #F39C12;
+}
+.footer-section{
+    background-color: #270B00;
+}
+.icons .fab{
+
+    color: white;
+    background-color: #110601;
+}
